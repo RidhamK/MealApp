@@ -9,9 +9,9 @@ class CatagoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Meals'),
-      ),
+      // appBar: AppBar(
+      //   title: const Text('Meals'),
+      // ),
       body: GridView.count(
         crossAxisCount: 2,
         mainAxisSpacing: 20,
