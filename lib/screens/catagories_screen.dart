@@ -9,9 +9,6 @@ class CatagoryScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: const Text('Meals'),
-      // ),
       body: GridView.count(
         crossAxisCount: 2,
         mainAxisSpacing: 20,
@@ -24,12 +21,6 @@ class CatagoryScreen extends StatelessWidget {
                   catData.color,
                 ))
             .toList(),
-        // gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-        //   maxCrossAxisExtent: 200,
-        //   childAspectRatio: 3 / 2,
-        //   crossAxisSpacing: 20,
-        //   mainAxisExtent: 20,
-        // ),
       ),
     );
   }
